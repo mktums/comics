@@ -1,3 +1,4 @@
+# coding: utf-8
 from os.path import exists
 
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
@@ -13,7 +14,7 @@ class YAFGCSpider(CrawlSpider):
     start_urls = ['http://yafgc.net/archive/', ]
     allowed_domains = ['yafgc.net', ]
     rules = (
-        Rule(SgmlLinkExtractor(allow=(r'/comic/\d+.+/$',)), callback='parse_item'),
+        Rule(SgmlLinkExtractor(allow=(r'/comic/.+/$',)), callback='parse_item'),
     )
 
     def parse_item(self, response):
@@ -26,7 +27,7 @@ class YAFGCSpider(CrawlSpider):
         if image_title[-1] == '.' and not image_title[-2] == '.':
             image_title = image_title[:-1]
         name, ext = image_url.split('/')[-1].rsplit('.', 1)
-        image_name = '{}.{}.{}'.format(int(no), image_title.strip(), ext)
-        path = self.PATH + '/' + remove_disallowed_filename_chars(unicode(image_name))
+        image_name = u'{}.{}.{}'.format(int(no), image_title.strip(), ext)
+        path = self.PATH + '/' + remove_disallowed_filename_chars(image_name)
         if not exists(path):
             return download(image_url, path)

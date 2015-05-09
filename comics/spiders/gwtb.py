@@ -1,3 +1,4 @@
+# coding: utf-8
 import re
 from os.path import exists
 from urlparse import urljoin
@@ -31,7 +32,7 @@ class GWTBSpider(CrawlSpider):
         base_url = get_base_url(response)
         image_url = urljoin(base_url, img_data.xpath('./center/img/@src').extract()[0])
         name, ext = image_url.split('/')[-1].split('.')
-        image_name = '{}.{}'.format(image_title, ext)
-        path = self.PATH + '/' + remove_disallowed_filename_chars(unicode(image_name))
+        image_name = u'{}.{}'.format(image_title, ext)
+        path = self.PATH + '/' + remove_disallowed_filename_chars(image_name)
         if not exists(path):
             return download(image_url, path)

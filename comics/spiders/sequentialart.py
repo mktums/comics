@@ -1,3 +1,4 @@
+# coding: utf-8
 from os.path import exists
 
 from urlparse import urlparse, parse_qs, urljoin
@@ -28,7 +29,7 @@ class SASpider(CrawlSpider):
         base_url = get_base_url(response)
         image_url = urljoin(base_url, image_url)
         name, ext = image_url.split('/')[-1].split('.')
-        image_name = '{}.{}'.format(comic_id, ext)
-        path = self.PATH + '/' + remove_disallowed_filename_chars(unicode(image_name))
+        image_name = u'{}.{}'.format(comic_id, ext)
+        path = self.PATH + '/' + remove_disallowed_filename_chars(image_name)
         if not exists(path):
             return download(image_url, path)
