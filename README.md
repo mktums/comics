@@ -9,3 +9,4 @@ This repository holds Scrapy spiders that I use for download some web comics.
 - [Sinfest](http://www.sinfest.net/)
 - [Yet Another Fantasy Gamer Comic](http://yafgc.net/)
 - [CommitStrip](http://www.commitstrip.com/en/)
+- [Dark Legacy Comics](http://www.darklegacycomics.com/)
