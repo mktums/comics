@@ -2,14 +2,18 @@
 import string
 import unicodedata
 import urllib2
+import urlparse
 
 
 def download(url, file_name):
+    data = urlparse.urlparse(url)
+    data._replace(path=urllib2.quote(data.path.encode('utf-8')))
+    url = data.geturl().encode('utf-8')
     u = urllib2.urlopen(url)
     f = open(file_name, 'wb')
     meta = u.info()
     file_size = int(meta.getheaders("Content-Length")[0])
-    print "Downloading: %s Bytes: %s" % (file_name, file_size)
+    print u"Downloading: %s Bytes: %s" % (file_name, file_size)
 
     file_size_dl = 0
     block_sz = 8192
