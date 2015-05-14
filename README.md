@@ -4,10 +4,11 @@ This repository holds Scrapy spiders that I use for download some web comics.
 
 ## List of supported comics:
 
-- [Gone with the Blastwave](http://www.blastwave-comic.com/)
-- [Sequential Art](http://www.collectedcurios.com/sequentialart.php)
-- [Sinfest](http://www.sinfest.net/)
-- [Yet Another Fantasy Gamer Comic](http://yafgc.net/)
-- [CommitStrip](http://www.commitstrip.com/en/)
-- [Dark Legacy Comics](http://www.darklegacycomics.com/)
-- [Looking For Group](http://www.lfg.co)
+- [EN] [Gone with the Blastwave](http://www.blastwave-comic.com/)
+- [EN] [Sequential Art](http://www.collectedcurios.com/sequentialart.php)
+- [EN] [Sinfest](http://www.sinfest.net/)
+- [EN] [Yet Another Fantasy Gamer Comic](http://yafgc.net/)
+- [EN] [CommitStrip](http://www.commitstrip.com/en/)
+- [EN] [Dark Legacy Comics](http://www.darklegacycomics.com/)
+- [EN] [Looking For Group](http://www.lfg.co)
+- [RU] [Bash.im](http://bash.im/comics-calendar)
