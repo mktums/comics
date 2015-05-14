@@ -3,13 +3,20 @@ import string
 import unicodedata
 import urllib2
 import urlparse
+from comics.settings import USER_AGENT
 
 
-def download(url, file_name):
+def download(url, file_name, referer=None, cookie=None):
     data = urlparse.urlparse(url)
     data._replace(path=urllib2.quote(data.path.encode('utf-8')))
     url = data.geturl().encode('utf-8')
-    u = urllib2.urlopen(url)
+    req = urllib2.Request(url)
+    if referer:
+        req.add_header("Referer", referer)
+    if cookie:
+        req.add_header("Cookie", cookie)
+    req.add_header("User-Agent", USER_AGENT)
+    u = urllib2.urlopen(req)
     f = open(file_name, 'wb')
     meta = u.info()
     file_size = int(meta.getheaders("Content-Length")[0])

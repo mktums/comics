@@ -10,6 +10,7 @@ This repository holds Scrapy spiders that I use for download some web comics.
 - [EN] [Yet Another Fantasy Gamer Comic](http://yafgc.net/)
 - [EN] [CommitStrip](http://www.commitstrip.com/en/)
 - [EN] [Dark Legacy Comics](http://www.darklegacycomics.com/)
-- [EN] [Looking For Group](http://www.lfg.co)
+- [EN] [Looking For Group](http://www.lfg.co/)
 - [RU] [Bash.im](http://bash.im/comics-calendar)
 - [EN] [Escapist's Critical Miss](http://www.escapistmagazine.com/articles/view/comicsandcosplay/comics/critical-miss)
+- [EN] [Questionable Content](http://questionablecontent.net/)
