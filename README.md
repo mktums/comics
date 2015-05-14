@@ -10,3 +10,4 @@ This repository holds Scrapy spiders that I use for download some web comics.
 - [Yet Another Fantasy Gamer Comic](http://yafgc.net/)
 - [CommitStrip](http://www.commitstrip.com/en/)
 - [Dark Legacy Comics](http://www.darklegacycomics.com/)
+- [Looking For Group](http://www.lfg.co)
