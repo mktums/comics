@@ -12,3 +12,4 @@ This repository holds Scrapy spiders that I use for download some web comics.
 - [EN] [Dark Legacy Comics](http://www.darklegacycomics.com/)
 - [EN] [Looking For Group](http://www.lfg.co)
 - [RU] [Bash.im](http://bash.im/comics-calendar)
+- [EN] [Escapist's Critical Miss](http://www.escapistmagazine.com/articles/view/comicsandcosplay/comics/critical-miss)
