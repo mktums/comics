@@ -3,6 +3,7 @@
 This repository holds Scrapy spiders that I use for download some web comics.
 
 ## List of supported comics:
+Format: *[Language] Comics name (translated name)*
 
 - [EN] [Gone with the Blastwave](http://www.blastwave-comic.com/)
 - [EN] [Sequential Art](http://www.collectedcurios.com/sequentialart.php)
@@ -14,3 +15,4 @@ This repository holds Scrapy spiders that I use for download some web comics.
 - [RU] [Bash.im](http://bash.im/comics-calendar)
 - [EN] [Escapist's Critical Miss](http://www.escapistmagazine.com/articles/view/comicsandcosplay/comics/critical-miss)
 - [EN] [Questionable Content](http://questionablecontent.net/)
+- [RU] [Виталий, немодный иллюстратор (Vitaliy, unfashionable illustrator)](http://schakty.com/tagvitaliy/)
