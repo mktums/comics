@@ -15,7 +15,7 @@ class LFGSpider(CrawlSpider):
     allowed_domains = ['www.lfg.co', ]
     rules = (
         Rule(SgmlLinkExtractor(allow=(r'/archives/\d+/$',)), follow=True),
-        Rule(SgmlLinkExtractor(allow=(r'/page/\d+/$',)), callback='parse_item', follow=True),
+        Rule(SgmlLinkExtractor(allow=(r'/page/.+/$',)), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
