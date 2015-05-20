@@ -18,3 +18,4 @@ Format: *[Language] Comics name (translated name)*
 - [RU] [Виталий, немодный иллюстратор (Vitaliy, unfashionable illustrator)](http://schakty.com/tagvitaliy/)
 - [EN] [StupidFox](http://stupidfox.net/)
 - [EN] [I Am Arg!](http://iamarg.com/)
+- [EN] [Scandinavia and the World](http://satwcomic.com/)
