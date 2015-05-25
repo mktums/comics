@@ -11,7 +11,7 @@ from scrapy.utils.response import get_base_url
 from comics.utils import remove_disallowed_filename_chars, download
 
 
-class IAmArgSpider(CrawlSpider):
+class GoGetARoomieSpider(CrawlSpider):
     PATH = 'Archive/GoGetARoomie'
     name = 'ggar'
     start_urls = ['http://www.gogetaroomie.com/comic/archive', ]

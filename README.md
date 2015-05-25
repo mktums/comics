@@ -20,3 +20,4 @@ Format: *[Language] Comics name (translated name)*
 - [EN] [I Am Arg!](http://iamarg.com/)
 - [EN] [Scandinavia and the World](http://satwcomic.com/)
 - [EN] [Go Get a Roomie!](http://www.gogetaroomie.com) [NSFW]
+- [EN] [Living with Hipstergirl and Gamergirl](http://www.jagodibuja.com/webcomic-living-with-hipstergirl-and-gamergirl-english/)
