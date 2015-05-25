@@ -19,3 +19,4 @@ Format: *[Language] Comics name (translated name)*
 - [EN] [StupidFox](http://stupidfox.net/)
 - [EN] [I Am Arg!](http://iamarg.com/)
 - [EN] [Scandinavia and the World](http://satwcomic.com/)
+- [EN] [Go Get a Roomie!](http://www.gogetaroomie.com) [NSFW]
